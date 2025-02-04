@@ -1,0 +1,47 @@
+.loginsignup {
+  height: 450px;
+  width: 900px;
+  background: white;
+  position: relative;
+  left: 70px;
+  top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.img-container img {
+  height: 200px;
+  position: relative;
+  left: 40px;
+  top: 100px;
+  width: 200px;
+}
+
+.img-container {
+  height: 450px;
+  width: 300px;
+  background: #f4f6f8;
+}
+
+.stateh1 {
+  position: relative;
+  left: 200px;
+  top: 50px;
+  color: #63d7b0;
+}
+
+.main-login-signup-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  left: 200px;
+  top: 70px;
+}
+
+span {
+  color: red;
+  cursor: pointer;
+  position: relative;
+  left: 5px;
+}

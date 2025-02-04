@@ -1,0 +1,77 @@
+.sidebar {
+  height: 450px;
+  width: 260px;
+  background: #f4f6f8;
+}
+
+.allicons {
+  height: 50px;
+  width: 220px;
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  left: 15px;
+  top: 10px;
+}
+
+.searchbox {
+  height: 50px;
+  width: 220px;
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 15px;
+  top: 20px;
+}
+
+.searchbox input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.allrecentchats {
+  height: 300px;
+  overflow-y: auto;
+  scrollbar-width: none;
+  width: 220px;
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+  left: 15px;
+  top: 30px;
+}
+
+.allrecentchats {
+  margin-top: 20px;
+}
+
+.recent-chat {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.recent-chat:hover {
+  background-color: #f1f1f1;
+}
+
+.recent-chat p {
+  margin: 0;
+}
+
+#rcp {
+  font-size: 13px;
+  position: relative;
+  left: 25px;
+  top: 10px;
+}
+
+.dark {
+  background-color: #2d3941 !important;
+  color: lightgray !important;
+}

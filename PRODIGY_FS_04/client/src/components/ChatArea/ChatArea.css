@@ -1,0 +1,91 @@
+.selectedUsersDetails {
+  height: 50px;
+  width: 600px;
+  background-color: #dddedd;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  margin: 10px 12px;
+}
+
+.msg-container {
+  height: 330px;
+  width: 600px;
+  background-color: #dddedd;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  margin: 10px auto;
+  overflow-y: auto;
+}
+
+.sendmsgcontainer {
+  height: 40px;
+  width: 600px;
+  background-color: #dddedd;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  margin: -5px auto;
+}
+
+.sendmsgcontainer input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 90%;
+}
+
+.informations {
+  display: flex;
+  flex-direction: row;
+  gap: 130px;
+}
+
+.informations h1 {
+  font-size: 12px;
+  position: relative;
+  top: -10px;
+}
+
+.informations p {
+  font-size: 16px;
+  position: relative;
+  top: 10px;
+  font-size: 12px;
+  right: 214px;
+}
+
+.introselectedUser {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.yourmessage {
+  align-self: flex-end; /* Right side */
+  background-color: #dcf8c6;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5px 0;
+  max-width: 80%;
+  word-break: break-word;
+}
+
+.mymessage {
+  align-self: flex-start; /* Left side */
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5px 0;
+  max-width: 80%;
+  word-break: break-word;
+}
+
+.time {
+  font-size: 10px;
+  color: #777777;
+  margin-left: 5px;
+}

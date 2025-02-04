@@ -1,0 +1,10 @@
+.maincontainer {
+  height: 450px;
+  width: 900px;
+  background: white;
+  position: relative;
+  left: 70px;
+  top: 30px;
+  display: flex;
+  flex-direction: row;
+}
